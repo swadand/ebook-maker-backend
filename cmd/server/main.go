@@ -13,7 +13,7 @@ func main() {
 	db.Init()
 
 	server := &http.Server{
-		Addr:    "localhost:3000",
+		Addr:    ":80",
 		Handler: r,
 	}
 

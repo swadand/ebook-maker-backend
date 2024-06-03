@@ -1,6 +1,5 @@
 .DS_Store
 node_modules
-/dist
 
 # local env files
 .env.local
@@ -147,9 +146,6 @@ typings/
 # nuxt.js build output
 .nuxt
 
-# vuepress build output
-.vuepress/dist
-
 # Serverless directories
 .serverless
 
@@ -160,5 +156,4 @@ typings/
 
 bin
 tmp
-web/vue.js/dist
 data
